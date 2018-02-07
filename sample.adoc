@@ -1,14 +1,13 @@
 = AsciiDoc is Writing Zen
 Author <author@example.com>
-:icons: font
 
 _Zen_ in the *art* of writing `plain text` with
 http://asciidoc.org[AsciiDoc]
 
 [TIP]
-Use http://asciidoctor.org[Asciidoctor] for the best
+Use http://asciidoc.org[Asciidoc] for the best
 AsciiDoc experience.footnote:[Not to mention the best
-looking output!] Then icon:twitter[role=aqua] about it!
+looking output!] Then twitter about it!
 
 == Sample Section
 
@@ -19,5 +18,21 @@ looking output!] Then icon:twitter[role=aqua] about it!
 [source, ruby]
 ----
 puts "Hello, World!"
+----
+
+[source, java]
+----
+System.out.println("Hello World!");
+----
+
+[source, scala]
+----
+/** Turn command line arguments to uppercase */
+object Main {
+  def main(args: Array[String]) {
+    val res = for (a <- args) yield a.toUpperCase
+    println("Arguments: " + res.toString)
+  }
+}
 ----
 

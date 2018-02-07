@@ -1,5 +1,12 @@
-*.png
-*.svg
 *.html
 *.xml
-.asciidoctor/
+*.tex
+*.pdf
+*.text
+*.hhc
+*.hhp
+*.htmlhelp/
+*.log
+*.epub
+.DS_Store
+docbook-xsl.css
